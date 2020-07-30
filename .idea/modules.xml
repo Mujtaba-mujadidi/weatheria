@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weatheria.iml" filepath="$PROJECT_DIR$/.idea/modules/weatheria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weatheria_main.iml" filepath="$PROJECT_DIR$/.idea/modules/weatheria_main.iml" group="weatheria" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weatheria_test.iml" filepath="$PROJECT_DIR$/.idea/modules/weatheria_test.iml" group="weatheria" />
+    </modules>
+  </component>
+</project>
