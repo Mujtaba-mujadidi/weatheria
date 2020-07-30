@@ -1,7 +1,8 @@
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-
+apply plugin: 'application'
+mainClassName = 'WeatherDataProvider'
 sourceCompatibility = 1.8
 
 repositories {
@@ -11,4 +12,11 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile group: 'com.mashape.unirest', name: 'unirest-java', version: '1.4.9'
+}
+
+run {
+    if (project.hasProperty("runArgs")){
+        args findProperty('runArgs')
+    }
+    standardInput = System.in
 }
